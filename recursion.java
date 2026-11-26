@@ -42,6 +42,7 @@ public class recursion {
 public static void main(String[] args){
     Scanner n = new Scanner(System.in);
     int num = n.nextInt();
+    n.close();
 
     for (int i = 0;i<num;i++){
         System.out.print(fibbonacii(i)+" ");
